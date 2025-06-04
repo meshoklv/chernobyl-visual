@@ -7,6 +7,7 @@ import { KeyFindingsSection } from '@/components/landing/key-findings-section';
 import { AnalysisSection } from '@/components/landing/analysis-section';
 import { SurveySection } from '@/components/landing/survey-section';
 import { ConclusionsSection } from '@/components/landing/conclusions-section';
+import { AdditionalMaterialsSection } from '@/components/landing/additional-materials-section';
 import { AuthorsSection } from '@/components/landing/authors-section';
 import { FooterSection } from '@/components/landing/footer-section';
 import { HeaderSection } from '@/components/landing/header-section';
@@ -32,6 +33,8 @@ export default function ChernobylLandingPage() {
         <SurveySection />
         <Separator className="my-4 opacity-50 md:my-6" />
         <ConclusionsSection />
+        <Separator className="my-4 opacity-50 md:my-6" />
+        <AdditionalMaterialsSection />
         <Separator className="my-4 opacity-50 md:my-6" />
         <AuthorsSection />
       </main>
